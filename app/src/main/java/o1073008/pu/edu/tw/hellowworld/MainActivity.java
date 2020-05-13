@@ -12,9 +12,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView txv = (TextView) findViewById(R.id.txv);
-        txv.setText("Hello student");
-        TestMaster();
-        TestDev();
+        //txv.setText("Hello student");
+        //TestMaster();
+        //TestDev();
+        txv.setText("嗨，我是楊子青");
+
     }
     public void TestMaster(){
         TextView txv = (TextView) findViewById(R.id.txv);
